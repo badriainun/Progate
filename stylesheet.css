@@ -1,0 +1,49 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: blanchedalmond;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left h1 {
+    float: left;
+    padding: 5px 60px;
+    margin: auto;
+    font-size: 24px;
+}
+
+.header-right li {
+    float: right;
+    padding: 10px 30px;
+    list-style: none;
+    color: black;
+}
+
+.header-right li:hover {
+    color: brown;
+    cursor: pointer;
+    background-color: #D4A355;
+    border-radius: 3px;
+}
