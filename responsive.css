@@ -1,19 +1,57 @@
-@media (max-width: 425px){
-    form{
-        width: 70%;
-    }
-    
-    form h3{
-        font-size: 24px
-    }        
-    
-    form input, textarea{
-        margin: 4px 0;
-        padding: 8px;
-        font-size: 10px;
-    }
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .konten {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
 
-    .contact-submit{
-        padding: 10px;
-    }
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  
+  span.menu-icon {
+    display:block;
+    /* padding: 21px 0; */
+    /* width: fit-content; */
+    
+  }
+  
+  
+  /* start body */
+  .konten-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .konten-wrapper h2 {
+    font-size: 20px;
+  }
+  .konten {
+    width: 100%;
+  }
+  /* end body */
+
+  form {
+    width: 70%;
+  }
+
+  form h3 {
+    font-size: 24px;
+  }
+
+  form input,
+  textarea {
+    margin: 4px 0;
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .contact-submit {
+    padding: 10px;
+  }
+  footer {
+    text-align: center;
+  }
 }
